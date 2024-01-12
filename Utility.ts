@@ -104,20 +104,10 @@ const Rex = makeCat("go", 20);
 
 
 
-class Doggy {
-    constructor ( public readonly name: string, age: number) {
-
-    }
-}
-
-const lgg = new Doggy("LG", 10);
-
-console.log(lgg.name)
 
 
 
-
-// Databasde
+// Database
 
 interface Database {
     get( id: string): string;
